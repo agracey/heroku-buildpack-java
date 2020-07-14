@@ -1,8 +1,9 @@
-#!/usr/bin/env bash -x
+#!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir> <env-dir>
 
 # fail fast
 set -e
+set -x
 
 BPLOG_PREFIX="buildpack.java"
 
